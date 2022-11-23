@@ -1,5 +1,6 @@
 import './App.css';
 import DragDropFile from './components/dragdrop.js';
+import ThreeApp from './components/threeapp.js';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <body className='App-body'>
         <h1>Drop your model!</h1>
         <DragDropFile />
+        <ThreeApp />
       </body> 
     </div>
   );
